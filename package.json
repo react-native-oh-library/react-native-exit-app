@@ -1,14 +1,22 @@
 {
-  "name": "react-native-exit-app",
-  "version": "2.0.0",
-  "description": "Exit,close,kill,shutdown app completely for React Native on iOS and Android.",
+  "name": "@react-native-oh-tpl/react-native-exit-app",
+  "version": "2.0.0-0.0.1",
+  "description": "Exit,close,kill,shutdown app completely for React Native on iOS Android and harmony.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wumke/react-native-exit-app"
+    "url": "https://github.com/react-native-oh-library/react-native-exit-app.git"
+  },
+  "harmony": {
+    "alias": "react-native-exit-app",
+   "codegenConfig": {
+      "specPaths": [
+        "./src"
+      ]
+    }
   },
   "types": "index.d.ts",
   "keywords": [
@@ -19,7 +27,8 @@
     "shutdown",
     "kill",
     "android",
-    "ios"
+    "ios",
+    "harmony"
   ],
   "author": "Wumke",
   "license": "MIT",
