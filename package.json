@@ -26,8 +26,6 @@
     "close",
     "shutdown",
     "kill",
-    "android",
-    "ios",
     "harmony"
   ],
   "author": "Wumke",
@@ -39,9 +37,6 @@
   "codegenConfig": {
     "name": "RNExitAppSpec",
     "type": "modules",
-    "jsSrcsDir": ".",
-    "android": {
-      "javaPackageName": "com.github.wumke.RNExitApp"
-    }
+    "jsSrcsDir": "."
   }
 }
