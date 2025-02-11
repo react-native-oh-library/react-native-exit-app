@@ -37,6 +37,6 @@
   "codegenConfig": {
     "name": "RNExitAppSpec",
     "type": "modules",
-    "jsSrcsDir": ".",
+    "jsSrcsDir": "."
   }
 }
